@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn workspace @jsguru/components build
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/dragovrban/WebstormProjects/stencil-jsguru/node_modules/.bin:/Users/dragovrban/Library/Android/sdk/emulator:/Users/dragovrban/Library/Android/sdk/tools:/Users/dragovrban/Library/Android/sdk/tools/bin:/Users/dragovrban/Library/Android/sdk/platform-tools:/Users/dragovrban/Documents/development/flutter/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.5
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/dragovrban/WebstormProjects/stencil-jsguru/packages/components/package.json: Unexpected token ] in JSON at position 623
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "stencil-jsguru",
+    "license": "MPL-2.0",
+    "version": "2.0.0",
+    "private": true,
+    "dependencies": {
+      "lerna": "^4.0.0"
+    },
+    "workspaces": [
+      "packages/*"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

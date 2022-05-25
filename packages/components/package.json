@@ -1,6 +1,7 @@
 {
-  "name": "@jsguru/components",
-  "version": "2.0.0",
+  "name": "l",
+  "version": "3.0.5",
+  "private": false,
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -10,19 +11,13 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/components/components.esm.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dragojsguru/jsguru-components.git"
-  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "assets/",
-    "dist/",
-    "loader/",
-    "hydrate/"
-  ],
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
