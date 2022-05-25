@@ -8,6 +8,7 @@ export const config: Config = {
     reactOutputTarget({
       componentCorePackage: '@jsguru/components',
       proxiesFile: '../components-react/src/components.ts',
+      includeDefineCustomElements: true
     }),
     {
       type: 'dist',
